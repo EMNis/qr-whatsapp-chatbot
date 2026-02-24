@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #25d366;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el QR */
+#qr-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.qr-code-wrapper {
+    display: inline-block;
+    padding: 20px;
+    border: 2px solid #25d366;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.qr-code-wrapper h2 {
+    color: #25d366;
+    margin-bottom: 15px;
+}
+
+.qr-code-wrapper img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.direct-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.direct-link:hover {
+    background: #1da851;
+}
+
+/* Sección de información */
+.info-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: #e8f5e8;
+    border-radius: 8px;
+    border-left: 4px solid #25d366;
+}
+
+.info-section h3 {
+    color: #25d366;
+    margin-top: 0;
+}
+
+.info-section p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #25d366;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .qr-code-wrapper {
+        padding: 15px;
+    }
+    
+    h1 {
+        font-size: 1.5rem;
+    }
+}

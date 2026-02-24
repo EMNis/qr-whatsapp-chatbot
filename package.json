@@ -1,0 +1,23 @@
+{
+  "name": "qr-whatsapp-chatbot",
+  "version": "1.0.0",
+  "description": "Página web con código QR para conectar con chatbot de WhatsApp",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Static files ready'",
+    "start": "python -m http.server 8000"
+  },
+  "keywords": [
+    "qr",
+    "whatsapp",
+    "chatbot",
+    "frontend",
+    "javascript"
+  ],
+  "author": "QR WhatsApp Solution",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  }
+}
